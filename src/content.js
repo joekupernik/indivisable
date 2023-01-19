@@ -69,7 +69,7 @@ function Content() {
       <CardMedia
         component="img"
         height="100%"
-        image="./images/findfriends.jpg"
+        image="./images/hunter.jpg"
         alt="friends"
       />
       <CardContent>
