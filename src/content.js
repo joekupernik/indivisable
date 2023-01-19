@@ -23,8 +23,8 @@ function Content() {
       <CardMedia
         component="img"
         height="100%"
-        image="./takeaction.jpg"
-        alt="react logo"
+        image="./images/takeaction.jpg"
+        alt="people working"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -46,8 +46,8 @@ function Content() {
       <CardMedia
         component="img"
         height="100%"
-        image="./typescript.png"
-        alt="Typescript"
+        image="./images/skiing.jpg"
+        alt="flag"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -69,8 +69,8 @@ function Content() {
       <CardMedia
         component="img"
         height="100%"
-        image="./mui.png"
-        alt="Material UI"
+        image="./images/findfriends.jpg"
+        alt="friends"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -92,8 +92,8 @@ function Content() {
       <CardMedia
         component="img"
         height="100%"
-        image="./javascript.png"
-        alt="JavaScript"
+        image="./images/learnmore.jpg"
+        alt="handshake"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
