@@ -21,10 +21,10 @@ export default function Jumbotron (){
         color="text.primary"
         gutterBottom
       >
-        Front-End Engineer 
+        Indivisable 
       </Typography>
       <Typography variant="h3" align="center" color="text.secondary" paragraph>
-        React developer, UI/UX, Freelance Business Owner
+        together we stand
       </Typography>
       
       </Card>
