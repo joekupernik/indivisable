@@ -23,7 +23,7 @@ function Content() {
       <CardMedia
         component="img"
         height="100%"
-        image="./react.png"
+        image="./takeaction.jpg"
         alt="react logo"
       />
       <CardContent>
