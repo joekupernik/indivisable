@@ -12,14 +12,15 @@ export default function ContactForm() {
  
   
   return (
-    <Paper elevation="12" sx={{m: '10%', p: '5%'}}>
+    <Paper elevation="12" sx={{mt: '10%', p: '5%'}} justifyContent="center" className="contactFormContainer">
     <Grid container  direction="row"
         justifyContent="center"
         alignItems="center"
       >
-      <Typography variant="h2" p="3%" >Contact Form</Typography>
-    <Grid item>    
+      
+    <Grid item> 
     <Paper elevation={24}>
+    
     <Box
       component="form"
       sx={{
@@ -28,6 +29,7 @@ export default function ContactForm() {
       noValidate
       autoComplete="off"
     >
+    
     <Grid container  direction="row"
         justifyContent="center"
         alignItems="center">

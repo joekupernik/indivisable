@@ -1,32 +1,21 @@
 //import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-//import Paper from "@mui/material/Paper";
-import Card from "@mui/material/Card";
+//import Typography from "@mui/material/Typography";
+import Paper from "@mui/material/Paper";
+//import { Paper } from "@mui/material";
+//import Card from "@mui/material/Card";
 
 
 export default function Jumbotron (){
     return(
-        <Card className="jumbotron"
+        <Paper elevation="48" className="jumbotron"
     sx={{
-      bgcolor: 'secondary',
       pt: 8,
       pb: 6,
+      
     }}
   >
    
-      <Typography
-        component="h1"
-        variant="h1"
-        align="center"
-        color="text.primary"
-        gutterBottom
-      >
-        Indivisable 
-      </Typography>
-      <Typography variant="h3" align="center" color="text.secondary" paragraph>
-        together we stand
-      </Typography>
       
-      </Card>
+      </Paper>
     );
 }
