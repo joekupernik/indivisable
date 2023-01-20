@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 
 export default function Jumbotron (){
     return(
-        <Paper elevation="48" className="jumbotron"
+        <Paper className="jumbotron"
     sx={{
       pt: 8,
       pb: 6,

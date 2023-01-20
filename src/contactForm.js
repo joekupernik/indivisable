@@ -12,14 +12,14 @@ export default function ContactForm() {
  
   
   return (
-    <Paper elevation="12" sx={{mt: '10%', p: '5%'}} justifyContent="center" className="contactFormContainer">
+    <Paper elevation={3} sx={{mt: '10%', p: '5%'}}  className="contactFormContainer">
     <Grid container  direction="row"
         justifyContent="center"
         alignItems="center"
       >
       
     <Grid item> 
-    <Paper elevation={24}>
+    <Paper elevation={3}>
     
     <Box
       component="form"

@@ -18,7 +18,7 @@ function Home() {
         alignItems="center">
         
         <Grid item >
-        <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+        <Paper elevation={3} sx={{mt: 2, mb: 2}}>
         <Card sx={{ maxWidth: 345 }} className="projectCard">
       <CardMedia
         component="img"
@@ -36,7 +36,7 @@ function Home() {
     </Paper>
         </Grid>
         <Grid  item >
-        <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+        <Paper elevation={3} sx={{mt: 2, mb: 2}}>
         <Card sx={{ maxWidth: 345 }} >
       <CardMedia
         component="img"
@@ -53,7 +53,7 @@ function Home() {
     </Paper>
         </Grid>
         <Grid  item >
-        <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+        <Paper elevation={3} sx={{mt: 2, mb: 2}}>
         <Card sx={{ maxWidth: 345 }} >
       <CardMedia
         component="img"
@@ -70,7 +70,7 @@ function Home() {
     </Paper>
         </Grid>
         <Grid  item >
-        <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+        <Paper elevation={3} sx={{mt: 2, mb: 2}}>
         <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -87,9 +87,9 @@ function Home() {
     </Paper>
         </Grid>
       </Grid>
-      <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+      <Paper elevation={3} sx={{mt: 2, mb: 2}}>
       <Card variant="outlined" sx={{mt: 2, mb: 2}}>
-          <CardContent sx={{display: "flex", justifyContent: "center"}}>
+          <CardContent sx={{display: "flex"}}>
       
       <CardMedia
         component="img"
@@ -98,9 +98,7 @@ function Home() {
         alt="landscape"
       />
       <Typography  
-        component="body"
         align="center"
-        justifyContent="center"
         color="text.primary"
         padding="5%"
         fontSize="1.5rem"
@@ -110,15 +108,13 @@ function Home() {
       </CardContent>
       </Card>
       </Paper>
-      <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+      <Paper elevation={3} sx={{mt: 2, mb: 2}}>
       <Card variant="outlined" sx={{mt: 2, mb: 2}}>
-          <CardContent sx={{display: "flex", justifyContent: "center"}}>
+          <CardContent sx={{display: "flex"}}>
       
       
       <Typography  
-        component="body"
         align="center"
-        justifyContent="center"
         color="text.primary"
         padding="5%"
         fontSize="1.5rem"
@@ -134,9 +130,9 @@ function Home() {
       </CardContent>
       </Card>
       </Paper>
-      <Paper elevation="24" sx={{mt: 2, mb: 2}}>
+      <Paper elevation={3} sx={{mt: 2, mb: 2}}>
       <Card variant="outlined" sx={{mt: 2, mb: 2}}>
-          <CardContent sx={{display: "flex", justifyContent: "center"}}>
+          <CardContent sx={{display: "flex"}}>
       
       <CardMedia
         component="img"
@@ -145,9 +141,7 @@ function Home() {
         alt="small buisness"
       />
       <Typography  
-        component="body"
         align="center"
-        justifyContent="center"
         color="text.primary"
         padding="5%"
         fontSize="1.5rem"
