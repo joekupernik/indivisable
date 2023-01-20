@@ -1,4 +1,4 @@
-import Box from '@mui/material/Box';
+//import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
@@ -6,34 +6,26 @@ import Grid from '@mui/material/Grid';
 //import Card  from '@mui/material/Card';
 //import  CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 
 export default function ContactForm() {
  
   
   return (
-    <Paper elevation={3} sx={{mt: '10%', p: '5%'}}  className="contactFormContainer">
-    <Grid container  direction="row"
-        justifyContent="center"
-        alignItems="center"
-      >
-      
-    <Grid item> 
-    <Paper elevation={3}>
-    
-    <Box
-      component="form"
+    <Paper elevation={3} sx={{mt: '10%', p: '5%'}}  className="contactFormContainer">   
+    <Paper elevation={3} component="form"
       sx={{
         '& .MuiTextField-root': { m: 1, width: '80%' } 
       }}
       noValidate
       autoComplete="off"
     >
-    
+   <Typography variant='h2' sx={{pl: '40%', pr: '40%'}}>Contact</Typography>
     <Grid container  direction="row"
         justifyContent="center"
         alignItems="center">
-    
+        
     <Grid item>
         <TextField
           label="First Name"
@@ -78,10 +70,7 @@ export default function ContactForm() {
        </Grid>
       </Grid>
       </Grid>
-    </Box>
     </Paper>
-    </Grid>
-    </Grid>
     </Paper>
   );
 }
