@@ -1,10 +1,8 @@
 import './App.css';
 import Header from "./header";
 import Footer from "./footer";
-import Content from './content';
 import Jumbotron from './jumbotron';
-import ReviewCard from './reviews';
-import ContactForm from './contactForm';
+import Home from './home';
 
 
 
@@ -16,9 +14,7 @@ function App() {
     <div className="App">
       <Header/>
       <Jumbotron/>
-      <Content/>
-      <ReviewCard/>
-      <ContactForm/>
+      <Home/>
       <Footer/>
     </div>
 
