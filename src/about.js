@@ -1,7 +1,15 @@
+import Card from '@mui/material/Card';
+import Paper from '@mui/material/Paper';
+
+
 function About() {
     return (
-        
-      <div>about us</div>
+       <Paper>
+        <Card>
+           hello
+        </Card>
+       </Paper> 
+      
     );
 }
 
