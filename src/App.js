@@ -2,10 +2,10 @@ import './App.css';
 import Header from "./header";
 import Footer from "./footer";
 import Jumbotron from './jumbotron';
-import Home from './home';
-import About from './about';
-import Resources from './resources';
-import Contact from './contact';
+import Home from './pages/home';
+import About from './pages/about';
+import Resources from './pages/resources';
+import Contact from './pages/contact';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
