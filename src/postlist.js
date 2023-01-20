@@ -1,5 +1,4 @@
 import { Link }  from "react-router-dom"
-//react markdown is not installed
 import Markdown from "react-markdown"
 import postlist from "./posts.json"
 

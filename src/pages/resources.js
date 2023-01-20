@@ -1,13 +1,8 @@
 import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
 import Paper from '@mui/material/Paper';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import PostList from '../postlist';
-//need to import a list of posts component then create a search and filter cataogires functionaility
+//need to create a search and filter cataogires functionaility
 
 
 const Resources = () => {
