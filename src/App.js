@@ -5,7 +5,7 @@ import Jumbotron from './jumbotron';
 import Home from './home';
 import About from './about';
 import Resources from './resources';
-import Contact from './contact'
+import Contact from './contact';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
@@ -16,9 +16,11 @@ function App() {
 
   return (
     <div className="App">
+      <Router>
+
       <Header/>
       <Jumbotron/>
-        <Router>
+        
           <Switch>
             <Route exact path="/">
               <Home/>
@@ -33,8 +35,9 @@ function App() {
               <Contact/>
             </Route>
           </Switch>
-        </Router>
+        
       <Footer/>
+      </Router>
     </div>
 
   );
