@@ -23,11 +23,12 @@ export default function ReviewCard() {
       <Typography  
         component="body"
         align="center"
+        justifyContent="center"
         color="text.primary"
-        padding="1%"
+        padding="5%"
         fontSize="1.5rem"
         >
-       Joseph is a highly motivated and persistent engineer with a growing portfolio of excellent work. He is a capable engineer, good communicator and hard worker. He would be a great addition to any team looking for an engineer who is dedicated to producing quality work, will work hard and deliver.
+       From the metroplitan hub of Denver to ...
       </Typography>      
       </CardContent>
       </Card>
@@ -40,11 +41,12 @@ export default function ReviewCard() {
       <Typography  
         component="body"
         align="center"
+        justifyContent="center"
         color="text.primary"
-        padding="1%"
+        padding="5%"
         fontSize="1.5rem"
         >
-       Joseph is a highly motivated and persistent engineer with a growing portfolio of excellent work. He is a capable engineer, good communicator and hard worker. He would be a great addition to any team looking for an engineer who is dedicated to producing quality work, will work hard and deliver.
+       The feilds of eastern colorado and to...
       </Typography>  
       <CardMedia
         component="img"
@@ -63,16 +65,17 @@ export default function ReviewCard() {
         component="img"
         sx={{ width: '45%' }}
         image="./images/smallbuisness.jpg"
-        alt="landscape"
+        alt="small buisness"
       />
       <Typography  
         component="body"
         align="center"
+        justifyContent="center"
         color="text.primary"
-        padding="1%"
+        padding="5%"
         fontSize="1.5rem"
         >
-       Joseph is a highly motivated and persistent engineer with a growing portfolio of excellent work. He is a capable engineer, good communicator and hard worker. He would be a great addition to any team looking for an engineer who is dedicated to producing quality work, will work hard and deliver.
+       The small buisnesses that make our economy run.  Thank you 
       </Typography>      
       </CardContent>
       </Card>

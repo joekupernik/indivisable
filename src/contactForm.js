@@ -2,8 +2,8 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
-import Card  from '@mui/material/Card';
+//import Typography from '@mui/material/Typography';
+//import Card  from '@mui/material/Card';
 //import  CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 
@@ -65,7 +65,7 @@ export default function ContactForm() {
       <Grid item width="80%" ml={'10%'} mt={'2%'} mb={'2%'} >
         <TextField
           label="Message"
-          defaultValue="How can I help?"
+          defaultValue="How can we help?"
           variant="outlined"
           required
           type="text"
