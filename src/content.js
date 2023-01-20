@@ -28,15 +28,10 @@ function Content() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          React
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          This is my favorite framework for app development. In fact this website is built on react. 
+          Take Action
         </Typography>
       </CardContent>
-      <CardActions>
-        <a href="https://github.com/joekupernik/highalt"> Veiw Source Code</a>
-      </CardActions>
+      
     </Card>
     </Paper>
         </Grid>
@@ -51,15 +46,9 @@ function Content() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-        Typescript
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-           Typescript is great! Check out this project where I use typescript to build a website. 
+        Find Friends
         </Typography>
       </CardContent>
-      <CardActions>
-        <a href="https://github.com/joekupernik/Tax-Time">Veiw Source Code</a>
-      </CardActions>
     </Card>
     </Paper>
         </Grid>
@@ -74,15 +63,9 @@ function Content() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Material UI
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Material UI is a great framework. I use this more than any other framework for css. 
+          Give Where You Live
         </Typography>
       </CardContent>
-      <CardActions>
-        <a href="https://github.com/joekupernik/highalt"> Veiw Source Code</a>
-      </CardActions>
     </Card>
     </Paper>
         </Grid>
@@ -97,16 +80,9 @@ function Content() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-        JavaScript
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Please take a look at this project showcasing an API pull and higher order JavaScript functions. 
+        Stay Up to Date
         </Typography>
       </CardContent>
-      <CardActions>
-      <a href="https://github.com/joekupernik/ITuneTop100"> Veiw Source Code</a>
-      <a href="https://joekupernik.github.io/ITuneTop100/"> Veiw App</a>
-      </CardActions>
     </Card>
     </Paper>
         </Grid>
