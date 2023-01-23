@@ -7,6 +7,7 @@ import About from './pages/about';
 import Resources from './pages/resources';
 import Contact from './pages/contact';
 import Message404 from './pages/404';
+import Post from './pages/post';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
@@ -34,6 +35,12 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <Contact/>
+            </Route>
+            <Route exact path="/post">
+              <Post/>
+            </Route>
+            <Route exact path="/post/:id" children={(props) => <Post {...props}/>}>
+              <Post/>
             </Route>
             <Route exact path="/404">
               <Message404/>
