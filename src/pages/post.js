@@ -45,8 +45,8 @@ const Post = () => {
                 </Grid>
                 <hr/>
                  
-                <Markdown classname="postContent" children={fetchedPost.content}  />
-           
+                <Markdown children={fetchedPost.content}  />
+
         </Paper>
     )
 }
