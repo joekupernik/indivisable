@@ -3,12 +3,12 @@ import { useParams, Redirect } from "react-router-dom";
 import Markdown from "react-markdown";
 import Paper  from "@mui/material/Paper";
 import postlist from "../posts.json";
+import { Grid } from "@mui/material";
 
+import './pages.css';
 
-const Post = (props) => {
+const Post = () => {
     const {postId} = useParams();
-
-    console.log(postId);
     const validId = parseInt(postId)
     if (!validId) {
         return <Redirect to="/404" />
@@ -21,6 +21,7 @@ const Post = (props) => {
             fetchedPost.date = post.date ? post.date : "No date given"
             fetchedPost.author = post.author ? post.author : "No author given"
             fetchedPost.content = post.content ? post.content : "No content given"
+            fetchedPost.thumbnail = post.thumbnail ? post.thumbnail : "no Thumbnail"
             postExists = true
         }
     })
@@ -29,18 +30,27 @@ const Post = (props) => {
     }
     return (
         
-        <Paper>
-            <div className="post">
-                <h2>post id {postId}</h2>
+        <Paper elevation={24} sx={{p: 5, m: 2}}>
+            <Grid container>
+            <Grid item xs={8}>
                 <h2>{fetchedPost.title}</h2>
-                <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                <small >Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                 
+                </Grid>
+                <Grid item xs={4}>
+                    <div >
+                    <img width="100%" src={fetchedPost.thumbnail} alt=""/>
+                     </div>
+                </Grid>
+                </Grid>
                 <hr/>
-                <Markdown children={fetchedPost.content}  />
-            </div>
+                 
+                <Markdown classname="postContent" children={fetchedPost.content}  />
+           
         </Paper>
     )
 }
- //display post data if post id from url is equal to a valid id in the postlist array. 
+ 
                 
 
 export default Post
