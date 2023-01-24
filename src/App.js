@@ -10,7 +10,7 @@ import Message404 from './pages/404';
 import Post from './pages/post';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-
+//remember to pull from git repository before changeing anything due to posts being able to be created
 
 
 function App() {
