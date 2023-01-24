@@ -1,24 +1,25 @@
-import  Paper  from "@mui/material/Paper";
-import { useParams } from "react-router-dom"
-//import Markdown from "react-markdown"
+import React from "react";
+import { useParams } from "react-router-dom";
+//import Markdown from "react-markdown";
+import Paper  from "@mui/material/Paper";
+//import postlist from "../posts.json";
 
-//import postlist from "../posts.json"
 
-
-//tahe url is rendered dynamicly based on url id in use params. now i need to render the content of individual post json files.
 const Post = (props) => {
-    const id = useParams(); 
-    
-    
-    return(
-      <Paper>
-         <div className="post">
-                <p>{id.title}</p>
-                <p>Published on {id.date} by {id.author}</p>
+    const {postId} = useParams();
+
+    console.log(postId);
+    return (
+        
+        <Paper>
+            <div className="post">
+                <h2>post id {postId}</h2>
                 
-                <p>{id.content} </p>
             </div>
-      </Paper>
-    );
-    }
+        </Paper>
+    )
+}
+ //display post data if post id from url is equal to a valid id in the postlist array. 
+                
+
 export default Post

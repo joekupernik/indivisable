@@ -39,7 +39,7 @@ function App() {
             <Route exact path="/post">
               <Post/>
             </Route>
-            <Route exact path="/post/:id" children={(props) => <Post {...props}/>}>
+            <Route exact path="/post/:postId" children={<Post />}>
               <Post/>
             </Route>
             <Route exact path="/404">
